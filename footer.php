@@ -15,7 +15,7 @@
 ?>
 
 		</div><!-- #content -->
-
+		<!-- Agregamos un una funcion para incluir el widget-->
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
 			<!-- Lo de abajo agrega el sidebar en el  footer en este caso-->	
@@ -23,6 +23,7 @@
 			<!-- Lo de abajo agrega un menu al footer en este caso-->
 			<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 			</div><!-- .wrap -->
+			
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
