@@ -14,19 +14,36 @@
 
 @import url("../twentyseventeen/style.css");
 
+/*Cambiamos el color de una etiqueta a y el tamaño de la fuente*/
 body.has-header-image .site-title a {
  color:#ef243f;
  font-size: 3em;
 }
 
+/*Cambiamos el color del titulo de la página*/
 .page .panel-content .entry-title {
  color:red;
 }
 
+/*Cambiamos la clase*/
 h2.MiClase{
  
 font-style: italic;
 color:red;
 font-size: 1em;
  
+}
+
+/*Moficación fuente de toda la página*/
+*{
+ font-family: miFuente;
+  border-radius: 25px;
+ 
+}
+
+/*Creamos la fuente*/
+@font-face {
+    font-family: miFuente;
+    src: url(SedgwickAve-Regular.ttf);
+   
 }
