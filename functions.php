@@ -4,7 +4,7 @@
  *
  */
 function twentyseventeen_child_widgets_init() {
-
+	/**  Creamos un widget en worpress*/
 	register_sidebar( array(
 		'name'          => __( 'miFuncion', 'twentyseventeen' ),
 		'id'            => 'funcion',
@@ -18,6 +18,7 @@ function twentyseventeen_child_widgets_init() {
 }
 add_action( 'widgets_init', 'twentyseventeen_child_widgets_init' );
 
+/**  LLamar a menu*/
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
 }
